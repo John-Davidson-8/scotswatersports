@@ -1,0 +1,63 @@
+h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: darkcyan;
+  text-align: center;
+  background-color: cornsilk;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #444;
+  text-align: center; 
+}
+
+nav li {
+  display: inline-block;
+  width: 20%; 
+  margin-right: -4px; 
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 40%; 
+  line-height: 40%; 
+  color: #fff;
+}
+
+nav a:hover {
+  background-color: darkcyan;
+}
+
+nav a.active {
+  background-color: #eee;
+  color: #444;
+  cursor: default;
+}
+
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: darkcyan;
+  text-align: center;
+}
+
+.man-in-kayak p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.man-in-kayak img {
+  max-width: 100%;
+}
+
+.indoor-pool p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+}
+
+.indoor-pool img {
+  max-width: 100%;
+}
